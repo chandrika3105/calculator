@@ -1,0 +1,62 @@
+h1{
+
+  padding-top: 5px;
+  font-family: 'Aclonica';font-size: 75px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px orangered;
+}
+
+body{
+  font-family: 'Baumans';    
+  background-image: url(https://wallpapercave.com/wp/wp2815529.jpg);
+  
+}
+.fc-size{
+  padding: 20px;
+  font-size: large;
+  background-color: #78f3e5 !important;
+  color: black;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px grey;
+}
+.btn-o{
+
+  background-color: orange !important;
+}
+.btn-eq{
+  color: black;
+  display: block;
+  float: left;
+  width: 100% !important;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+  background-image: linear-gradient(45deg,lightyellow,limegreen,lightyellow) !important;
+  box-shadow: 10px 10px 5px grey;
+}
+.btn-eq:hover {background-color: green;}
+.btn-r{
+  display: block;
+  float: left;
+  width: 24.62%;
+  margin-top: 10px;
+  margin-left: 1.7px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+  background-color: papayawhip;
+  box-shadow: 10px 10px 5px grey;
+}
+.btn-r:hover {background-color: #68bdd4;}
+.btn-clr{
+  background-color: red;
+}
+.btn-clr:hover {background-color: pink;}
+
+.btn-bckspc{
+  background-color: yellow;
+}
+.btn-bckspc:hover {background-color: whitesmoke;}

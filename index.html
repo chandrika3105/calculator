@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+
+    <div align="center" class="py-4">
+        
+        <h1>CALCULATOR</h1>
+
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center py-3">
+        <div class="col-sm-6">
+          <form>
+            <input type="text" id="res" class="form-control fc-size" readonly>
+            <input type="button" class="btn btn-r btn-o" value="(" onclick="dis('(')">
+            <input type="button" class="btn btn-r btn-o" value=")" onclick="dis(')')">
+            <input type="button" class="btn btn-r btn-o" value="%(MOD)" onclick="dis('&percnt;')">
+            <input type="button" class="btn btn-r btn-clr" value="Clear" onclick="clickclr()">
+            <input type="button" class="btn btn-r" value="7" onclick="dis('7')">
+            <input type="button" class="btn btn-r" value="8" onclick="dis('8')">
+            <input type="button" class="btn btn-r" value="9" onclick="dis('9')">
+            <input type="button" class="btn btn-r btn-o" value="÷" onclick="dis('/')">
+            <input type="button" class="btn btn-r" value="4" onclick="dis('4')">
+            <input type="button" class="btn btn-r" value="5" onclick="dis('5')">
+            <input type="button" class="btn btn-r" value="6" onclick="dis('6')">
+            <input type="button" class="btn btn-r btn-o" value="&#xd7" onclick="dis('*')">
+            <input type="button" class="btn btn-r" value="1" onclick="dis('1')">
+            <input type="button" class="btn btn-r" value="2" onclick="dis('2')">
+            <input type="button" class="btn btn-r" value="3" onclick="dis('3')">
+            <input type="button" class="btn btn-r btn-o" value="&#x2212" onclick="dis('-')">
+            <input type="button" class="btn btn-r" value="0" onclick="dis('0')">
+            <input type="button" class="btn btn-r" value="•" onclick="dis('.')">
+            <input type="button" class="btn btn-r btn-bckspc" value = "BackSpace" onclick="clickbackspace()">
+            <input type="button" class="btn btn-r btn-o" value="&#x2b" onclick="dis('&#x2b')">
+            <input type="button" name="equal" class="btn btn-dark btn-eq" value="Ans =" onclick="clickoperate()">
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
